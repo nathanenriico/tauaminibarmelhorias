@@ -80,7 +80,7 @@ function finalizeConsumption() {
     const apartmentNumber = document.getElementById("apartment-number").value.trim();
     const message = `Consumo confirmado! Apartamento: ${apartmentNumber}\nItens: ${consumption.map(item => `${item.name} - R$ ${item.price.toFixed(2)}`).join("\n")}`;
     
-    const whatsappURL = `https://wa.me/11941716617?text=${encodeURIComponent(message)}`;
+    const whatsappURL = `https://wa.me/5511941716617?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, '_blank');
     
     consumption = [];
