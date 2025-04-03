@@ -1,0 +1,1 @@
+Hospede faz check-in, no check-in ele tem o cardápio de produtos que ele deseja no frigobar, automaticamente o pedido de cliente vai para o repositor que fara a separação dos produtos e abastecera os frigobar
